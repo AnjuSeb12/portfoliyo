@@ -145,6 +145,27 @@ body{
     border:3px solid yellowgreen;
     
 }
+@media only screen and (max-width: 768px) {
+ 
+       .nameWrapper h2{
+        font-size: 18px;
+        padding-left: 200px;
+        padding-top: 10px;
+       }
+       .nameWrapper h1{
+        padding-left: 200px;
+       }
+       .nameWrapper p{
+        padding-left:300px;
+        padding-top: 90px;
+        
+    }
+    .nameWrapper{
+        padding-top: 70px;
+    }
+    
+
+}
 /* first row ends */
 
 
@@ -169,7 +190,7 @@ height: 500px;
     padding-top: 0;
     background-color: rgb(46, 26, 100);
     border-radius: 50px;
-    /* border:5px solid rgb(66, 14, 14); */
+   
     width:800px;
     height:300px;
 }
@@ -192,6 +213,40 @@ height: 500px;
 }
 .box h1:hover,p:hover{
     color:azure
+}
+@media only screen and (max-width: 768px){
+    .box{
+        width: 500px;
+        height: 400px;
+
+    }
+    .secondRow h1{
+        color: rgb(207, 203, 214);
+        font-size: 40px;
+        font-weight: bold;
+        padding-top: 20px;
+        
+    
+    }
+    .secondRow{
+        padding-left: 10px;;
+        
+    }
+    .box h5{
+        position: relative;
+    
+        width: 300px;
+        left:90px;
+        color: black;
+    }
+    .box h4{
+        font-size: 30px;
+        color: azure;
+        font-weight: bold;
+    }
+
+    
+
 }
 
 /* about ends */
@@ -230,6 +285,28 @@ height: 500px;
     height: 3px;
     background-color: brown;
 }
+@media only screen and (max-width: 768px){
+    .skillsWrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .skillcol{
+        background-color: aliceblue;
+        height: 800px;
+        border-radius: 40px;
+        
+    }
+    .skillhi{
+        height: 100px;
+        width: 100px;
+        border-radius: 30px;
+        position: relative;
+        left: 200px;
+        padding-top: 20px;
+    }
+
+
+}
 /* skills ends */
 /* footer starts */
 .colorblack{
@@ -250,6 +327,19 @@ height: 500px;
     border-bottom: 1px solid rgb(18, 19, 12);
 
 
+}
+@media only screen and (max-width: 768px){
+    .colorblack{
+     
+        background-color: rgb(80, 51, 61);
+      
+       
+        
+    }   
+    .footerText h5,h6{
+        position: relative;
+        left: 260px;
+    }
 }
 
 
