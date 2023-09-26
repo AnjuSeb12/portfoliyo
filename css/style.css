@@ -3,14 +3,7 @@ html{
     margin-right: 0;
     clear: both;
 }
-/* *{
-    margin-left:0px;
-    padding:0px;
-    box-sizing: border-box;
-   
-    font-family: Arial, Helvetica, sans-serif;
 
-} */
 body{
     margin:0px;
     padding: 0px;
@@ -18,18 +11,11 @@ body{
     
 
 }
-@media only screen and (max-width: 600px){
-    body{
-        margin:0px;
-        padding:0px;
-        background-color: rgb(24, 175, 175);
-        
-    
-    }
-}
-.nav{
+
+/* .nav{
     clear: both;
-}
+} */
+
 .just{
     justify-content: space-between;
 }
@@ -148,15 +134,70 @@ body{
     border:3px solid yellowgreen;
     
 }
+@media only screen and (max-width: 1144px)
+{
+    .nameWrapper h2{
+        font-size: 40px;
+        padding-left: 170px;
+        padding-top: 10px;
+       }
+       .nameWrapper h1{
+        padding-top: 10px;
+        padding-left: 200px;
+        font-size: 70px;
+       }
+       .nameWrapper p{
+        padding-left:400px;
+        padding-top: 20px;
+        
+    }
+    .nameWrapper{
+        padding-top: 30px;
+       
+          
+      }
+}
+@media only screen and (max-width: 900px){
+    .nameWrapper h2{
+        font-size: 20px;
+        padding-left: 170px;
+        padding-top: 10px;
+       }
+       .nameWrapper h1{
+        padding-top: 10px;
+        padding-left: 200px;
+        font-size: 30px;
+       }
+       .nameWrapper p{
+        padding-left:400px;
+        padding-top: 20px;
+        
+    }
+}
+@media only screen and (max-width: 992px){
+    .nameWrapper h2{
+     max-width: 800px;
+     text-align: center;
+    
+
+       }
+       .styleMern,.styleMern2,.styleMern3,.styleMern1{
+    
+        padding: 1px;
+        border-radius: 100px;
+    }
+}
+
 @media only screen and (max-width: 768px) {
  
        .nameWrapper h2{
-        font-size: 18px;
-        padding-left: 200px;
+        font-size: 25px;
+        padding-left: 150px;
         padding-top: 10px;
        }
        .nameWrapper h1{
         padding-left: 200px;
+        font-size: 30px;
        }
        .nameWrapper p{
         padding-left:300px;
@@ -172,6 +213,41 @@ body{
     
 
 }
+@media only screen and (max-width: 552px){
+    .nameWrapper h2{
+        font-size: 20px;
+        padding-left: 40px;
+        padding-top: 10px;
+       }
+       .nameWrapper h1{
+        padding-left: 50px;
+        font-size: 40px;
+       }
+       .nameWrapper p{
+        padding-left:200px;
+        padding-top: 90px;
+        
+    }
+
+}
+@media only screen and (max-width: 620px){
+    .nameWrapper h2{
+        font-size: 20px;
+        padding-left: 60px;
+        padding-top: 10px;
+       }
+       .nameWrapper h1{
+        padding-left:70px;
+        font-size: 40px;
+       }
+       .nameWrapper p{
+        padding-left:200px;
+        padding-top: 90px;
+        
+    }
+
+}
+
 /* first row ends */
 
 
@@ -179,10 +255,15 @@ body{
 .secondRow{
 text-align: center;
 padding-top: 30px;
-padding-left: 100px;
+
 background-color: rgba(120, 167, 77, 0.219);
 height: 500px;
+width: 800px;
+border-radius: 40px;}
+.marginAbout{
+    margin-left:300px
 }
+
 .secondRow h1{
     color: rgb(85, 49, 153);
     font-size: 40px;
@@ -191,41 +272,46 @@ height: 500px;
 }
 .secondRow p{
     color: rgb(14, 13, 13);
-}
-/* .box{
-    padding-top: 0;
-    background-color: rgb(46, 26, 100);
-    border-radius: 50px;
-   
-    width:800px;
-    height:300px;
-} */
+    }
+
 .box h4,h5{
     color:black;
 }
 .box h4{
-    padding-bottom: 10px;;
+    padding-bottom: 10px;
+    font-size: 30px;
     
 }
-.box p{
-    max-width: 700px;
-    padding-left: 30px;
+.box h5{
+    font-size: 18px;
 }
-/* .box:hover{
-    background-color: rgb(61, 23, 23);
-} */
+.box p{
+  
+    padding-left: 50px;
+    padding-right: 20px;
+}
+
 .about{
     padding-bottom: 30px;
+    margin-top: 30px;
+    
 }
 .box h1:hover,p:hover{
     color:azure
 }
-@media only screen and (max-width: 768px){
-    .box{
-        width: 500px;
-        height: 400px;
+@media only screen and (max-width: 1144px){
+    .marginAbout{
+        margin-left:40px;
+    }   
 
-    }
+}
+@media only screen and (max-width: 1048px){
+    .marginAbout{
+        margin-left:80px;
+    }   
+}
+@media only screen and (max-width: 768px){
+   
     .secondRow h1{
         color: rgb(207, 203, 214);
         font-size: 40px;
@@ -239,20 +325,64 @@ height: 500px;
         
     }
     .box h5{
-        position: relative;
-    
-        width: 300px;
-        left:90px;
-        color: black;
+    text-align: center;
+    padding-left: 100px;
+    font-size: 20px;
+    color: brown;
     }
     .box h4{
         font-size: 30px;
         color: azure;
         font-weight: bold;
     }
+    .marginAbout{
+        margin-left:0px;
+        border-radius: 0px;
+    }.box p{
+  
+        font-size: 18px;
+        color:brown;
+    }   
+
 
     
 
+}
+@media only screen and (max-width: 520px)
+{
+    .box p{
+  
+        font-size: 27px;
+        color:brown;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        max-width: 500px;
+        padding-left: 200px;
+    } 
+    .secondRow{
+        text-align: center;
+        padding-top: 30px;
+        
+        background-color: rgba(177, 182, 173, 0.219);
+        height: 800px;
+        width: 800px;
+        border-radius: 40px;}
+        .secondRow h1{
+            color: rgb(207, 203, 214);
+            font-size: 50px;
+            font-weight: bold;
+            padding-top: 20px;
+            
+        
+        }
+        .box h5{
+            font-size: 30px;
+            max-width: 500px;
+            padding-left: 150px;
+        }
+        .box h4{
+            font-size: 40px;
+        }
 }
 
 /* about ends */
@@ -269,6 +399,7 @@ height: 500px;
     background-color: aliceblue;
     height: 300px;
     border-radius: 40px;
+   
     
 }
 .skillcol h1{
@@ -291,6 +422,16 @@ height: 500px;
     height: 3px;
     background-color: brown;
 }
+@media only screen and (max-width:862px){
+     
+    .skillcol{
+        background-color: rgb(106, 44, 223);
+        height: 300px;
+        border-radius: 0px;
+        margin-left: 0px;
+        
+    }
+}
 @media only screen and (max-width: 768px){
     .skillsWrapper{
         display: flex;
@@ -300,6 +441,7 @@ height: 500px;
         background-color: aliceblue;
         height: 800px;
         border-radius: 40px;
+        margin-left:0px;
         
     }
     .skillhi{
@@ -313,6 +455,7 @@ height: 500px;
 
 
 }
+
 /* skills ends */
 /* footer starts */
 .colorblack{
