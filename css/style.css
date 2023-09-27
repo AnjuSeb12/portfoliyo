@@ -20,6 +20,9 @@ body{
  color: rgb(102, 155, 58);
  padding-top: 0px;
 }
+.hero:hover{
+    color: coral;
+}
 .color{
     color: rgb(49, 153, 110);
 }
@@ -35,11 +38,14 @@ body{
 }
 .hireme{
    
-  font-weight: bold;
-  color: rgb(240, 14, 14);
+
+  color: rgb(211, 203, 203);
+  border-radius: 25px;
+  padding: 5px;
+  background-color: black;
 }
 .hireme:hover{
-    color: rgb(163, 25, 25);
+    color: rgb(36, 196, 44);
    
 }
 /* frst row starts */
@@ -321,6 +327,9 @@ body{
 
 }
 @media only screen and (max-width: 430px){
+    .nameWrapper h1{
+        padding-left: 80px;
+    }
     .nameWrapper h2{
         padding-left:4px;
         font-size: 14px;
@@ -328,6 +337,11 @@ body{
        .nameWrapper p{
         padding-top: 10px;
        }
+}
+@media only screen and (max-width: 430px){
+    .nameWrapper h1{
+        padding-left: 50px;
+    }
 }
 @media only screen and (max-width: 314px){
     .nameWrapper h2{
@@ -338,6 +352,8 @@ body{
         padding-top: 10px;
        }
 }
+
+
 
 
 
@@ -539,7 +555,7 @@ border-radius: 40px;}
         width: 100px;
         border-radius: 30px;
         position: relative;
-        left: 200px;
+        left: 260px;
         padding-top: 20px;
     }
 
@@ -634,7 +650,7 @@ text-align: center;
         border-radius: 40px;
         margin-left: 0;
         height: 400px;
-        margin-left: 200px;
+        margin-left: 250px;
         margin-bottom: 20px;
        
     }
@@ -648,7 +664,7 @@ text-align: center;
             border-radius: 40px;
             margin-left: 0;
             height: 400px;
-            margin-left: 200px;
+            margin-left: 250px;
             margin-bottom: 20px;
           
         }
@@ -656,17 +672,68 @@ text-align: center;
             border-radius: 40px;
             margin-left: 0;
             height: 400px;
-            margin-left: 200px;
+            margin-left: 250px;
             margin-bottom:20px;
         }
         .heads{
-            padding-left: 40px;
+            padding-left: 0px;
         }
         .serviceWrapper{
             margin-left: 0px;
             margin-right: 0px;
             padding-right: 0;
         }   
+}
+@media only screen and (max-width: 724px){
+    .heads{
+        padding-left: 0px;
+    }
+}
+@media only screen and (max-width: 640px){
+    .heads{
+        padding-left: 30px;
+    }
+    .serviceone{
+        margin-left: 220px;
+    }
+       
+    .service2{
+  
+    
+        margin-left: 220px;
+        
+      
+    }
+    .service3{
+      
+        margin-left: 220px;
+      
+    }    
+}
+@media only screen and (max-width: 540px){
+    .heads{
+        padding-left: 60px;
+    }
+}
+
+@media only screen and (max-width: 414px)
+{
+    .serviceone,.service2,.service3{
+      
+        margin-left: 140px;
+        
+        
+    }
+}
+
+@media only screen and (max-width: 412px)
+{
+    .serviceone,.service2,.service3{
+      
+        margin-left: 160px;
+        
+        
+    }
 }
 @media only screen and (max-width: 405px){
     .serviceone h1,.service2 h1,.service3 h1{
