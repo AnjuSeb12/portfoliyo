@@ -1,7 +1,8 @@
 html{
     padding-right:0;
     margin-right: 0;
-    clear: both;
+    clear: both; 
+    
 }
 
 body{
@@ -12,21 +13,12 @@ body{
 
 }
 
-/* .nav{
-    clear: both;
-} */
-
-.just{
-    justify-content: space-between;
-}
-.width50{
-    width: 50%;
-}
 
 .hero{
  font-size: 50px;
  font-style: italic;
  color: rgb(102, 155, 58);
+ padding-top: 0px;
 }
 .color{
     color: rgb(49, 153, 110);
@@ -41,9 +33,19 @@ body{
     
     padding: 4px 4px;
 }
+.hireme{
+   
+  font-weight: bold;
+  color: rgb(240, 14, 14);
+}
+.hireme:hover{
+    color: rgb(163, 25, 25);
+   
+}
 /* frst row starts */
 .nameWrapper{
-  padding-top: 200px;
+  padding-top: 0px;
+  margin-top: 200px;
  
     
 }
@@ -134,15 +136,17 @@ body{
     border:3px solid yellowgreen;
     
 }
+
+
 @media only screen and (max-width: 1144px)
 {
     .nameWrapper h2{
         font-size: 40px;
-        padding-left: 170px;
+        padding-left: 200px;
         padding-top: 10px;
        }
        .nameWrapper h1{
-        padding-top: 10px;
+        padding-top: 100px;
         padding-left: 200px;
         font-size: 70px;
        }
@@ -152,10 +156,27 @@ body{
         
     }
     .nameWrapper{
-        padding-top: 30px;
+        padding-top: 0px;
+        margin-top: 10px;
        
           
       }
+    
+    
+}
+@media only screen and (max-width: 951px){
+
+    .nameWrapper h1{
+        padding-top: 200px;
+        padding-left: 250px;
+        font-size: 50px;
+       }   
+       .nameWrapper p{
+        padding-left: 440px;
+       }
+       .nameWrapper{
+        margin-top: 0px;
+       }
 }
 @media only screen and (max-width: 900px){
     .nameWrapper h2{
@@ -172,6 +193,9 @@ body{
         padding-left:400px;
         padding-top: 20px;
         
+    } 
+    .nameWrapper{
+        padding-top: 100px;
     }
 }
 @media only screen and (max-width: 992px){
@@ -192,7 +216,7 @@ body{
  
        .nameWrapper h2{
         font-size: 25px;
-        padding-left: 150px;
+        padding-left: 130px;
         padding-top: 10px;
        }
        .nameWrapper h1{
@@ -201,16 +225,35 @@ body{
        }
        .nameWrapper p{
         padding-left:300px;
-        padding-top: 90px;
+        padding-top: 30px;
         
     }
     .nameWrapper{
-        padding-top: 70px;
+        padding-top: 200px;
     }
     .firstRow{
         width: 100%;
     }
     
+
+
+}
+
+@media only screen and (max-width: 620px){
+    .nameWrapper h2{
+        font-size: 20px;
+        padding-left: 0px;
+        padding-top: 10px;
+       }
+       .nameWrapper h1{
+        padding-left:70px;
+        font-size: 40px;
+       }
+       .nameWrapper p{
+        padding-left:200px;
+        padding-top: 10px;
+        
+    }
 
 }
 @media only screen and (max-width: 552px){
@@ -225,33 +268,41 @@ body{
        }
        .nameWrapper p{
         padding-left:200px;
-        padding-top: 90px;
+        padding-top: 10px;
         
     }
 
 }
-@media only screen and (max-width: 620px){
+@media only screen and (max-width: 513px){
     .nameWrapper h2{
         font-size: 20px;
-        padding-left: 60px;
+        padding-left: 40px;
         padding-top: 10px;
        }
        .nameWrapper h1{
         padding-left:70px;
-        font-size: 40px;
+        font-size: 30px;
        }
        .nameWrapper p{
         padding-left:200px;
-        padding-top: 90px;
+        padding-top: 20px;
         
     }
 
 }
+
 @media only screen and (max-width: 494px){
     .nameWrapper h1{
         padding-left:70px;
         font-size: 30px;
        }
+}
+@media only screen and (max-width: 449px){
+    .nameWrapper h2{
+        font-size: 10px;
+        padding-left: 40px;
+        padding-top: 10px;
+       } 
 }
 @media only screen and (max-width: 430px){
     .nameWrapper h1{
@@ -269,6 +320,26 @@ body{
     }
 
 }
+@media only screen and (max-width: 430px){
+    .nameWrapper h2{
+        padding-left:4px;
+        font-size: 14px;
+       }
+       .nameWrapper p{
+        padding-top: 10px;
+       }
+}
+@media only screen and (max-width: 314px){
+    .nameWrapper h2{
+        padding-left:4px;
+        font-size: 10px;
+       }
+       .nameWrapper p{
+        padding-top: 10px;
+       }
+}
+
+
 
 /* first row ends */
 
@@ -287,13 +358,13 @@ border-radius: 40px;}
 }
 
 .secondRow h1{
-    color: rgb(85, 49, 153);
+    color: rgb(0, 0, 0);
     font-size: 40px;
     font-weight: bold;
 
 }
 .secondRow p{
-    color: rgb(14, 13, 13);
+    color: rgb(250, 245, 245);
     }
 
 .box h4,h5{
@@ -318,8 +389,8 @@ border-radius: 40px;}
     margin-top: 30px;
     
 }
-.box h1:hover,p:hover{
-    color:azure
+.box h1:hover,p:hover,h4:hover,h5:hover{
+    color:rgb(110, 117, 117)
 }
 @media only screen and (max-width: 1144px){
     .marginAbout{
@@ -441,11 +512,6 @@ border-radius: 40px;}
     border-radius: 100px;
 }
 
-/* .prct{
-    width: 100px;
-    height: 3px;
-    background-color: brown;
-} */
 @media only screen and (max-width:862px){
      
     .skillcol{
@@ -492,6 +558,14 @@ border-radius: 40px;}
     }
 
 }
+@media only screen and (max-width: 316px){
+    .skillhi{
+        
+        left: 100px;
+        
+    }
+    
+}
 
 /* skills ends */
 /* services */
@@ -500,6 +574,7 @@ border-radius: 40px;}
     background-color: gray;
     padding-top: 30px;
     height: 400px;
+    
 }
 .serviceWrapper>div{
     display: flex;
@@ -609,6 +684,7 @@ text-align: center;
         .serviceWrapper{
             margin-right: 0;
             height: 700px;
+       
         
         }
 
@@ -620,7 +696,7 @@ text-align: center;
     background-color: rgb(1, 33, 36);
     margin-top: 30px;
     padding-top: 30px;
-    height: 400px;
+    height: 300px;
 }
 .footerText h1,h6,h5{
     color: white;
@@ -631,6 +707,14 @@ text-align: center;
    
 
 }
+.footerText h1:hover,h6:hover,h5:hover{
+    color: rgb(66, 56, 66);
+  
+    
+   
+
+}
+
 .footerText h1{
     text-align: center;
 }
@@ -639,16 +723,7 @@ text-align: center;
 
 
 }
-.mail{
-    text-decoration: none;
-    font-size: 20px;
-    
-    padding: 10px;
-    border-radius: 40px;
-    background-color: green;
-    
 
-}
 
 @media only screen and (max-width: 768px){
     .colorblack{
@@ -667,6 +742,26 @@ text-align: center;
     .footerText h5{
         font-size: 15px;
     }
+}
+@media only screen and (max-width: 460px)
+{
+    .footerText h5,h6{
+        padding-left: 0px;
+        
+       
+    
+    }   
+}
+
+
+@media only screen and (max-width: 316px)
+{
+    .footerText h5,h6{
+        padding-left: 40px;
+        
+       
+    
+    }   
 }
 
 
