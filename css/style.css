@@ -370,7 +370,8 @@ height: 500px;
 width: 800px;
 border-radius: 40px;}
 .marginAbout{
-    margin-left:170px
+    margin-left:170px;
+   
 }
 
 .secondRow h1{
@@ -406,6 +407,8 @@ border-radius: 40px;}
 .about{
     padding-bottom: 30px;
     margin-top: 30px;
+
+   
     
 }
 .box h1:hover,p:hover,h4:hover,h5:hover{
@@ -474,13 +477,14 @@ border-radius: 40px;}
         padding-bottom: 40px;
         max-width: 1200px;
         padding-left: 0px;
+        
     } 
     .secondRow{
         text-align: center;
         padding-top: 30px;
         
         background-color: rgba(177, 182, 173, 0.219);
-        height: 500px;
+        height: 700px;
         width: 800px;
         border-radius: 0px;}
         .secondRow h1{
@@ -1034,6 +1038,18 @@ text-align: center;
     }
 
  }
+ @media only screen and (max-width: 369px){
+    #loginForm{
+        padding-left: 50px;   
+    }
+    .footerText h1,h6,h5{
+        margin-top: 10px;
+      
+   
+    }
+
+ }
+
 
 
 
