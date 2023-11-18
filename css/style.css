@@ -393,6 +393,9 @@ border-radius: 40px;}
 }
 .box h5{
     font-size: 18px;
+    margin-left: 0px;
+    
+   
 }
 .box p{
   
@@ -407,6 +410,9 @@ border-radius: 40px;}
 }
 .box h1:hover,p:hover,h4:hover,h5:hover{
     color:rgb(110, 117, 117)
+}
+@media only screen and (max-width: 1318px){
+
 }
 @media only screen and (max-width: 1144px){
     .marginAbout{
@@ -451,6 +457,7 @@ border-radius: 40px;}
   
         font-size: 18px;
         color:brown;
+        text-align: justify;
     }   
 
 
@@ -562,6 +569,18 @@ border-radius: 40px;}
 
 
 }
+@media only screen and (max-width: 767px){
+    .skillhi{
+        left: 230px;
+    } 
+}
+
+@media only screen and (max-width: 459px){
+    .skillhi{
+        left: 190px;
+    }  
+}
+
 @media only screen and (max-width: 430px)
 {
     .skillhi{
@@ -759,77 +778,268 @@ text-align: center;
 }
 /* services */
 /* footer starts */
-.colorblack{
+.contactOrder>div{
+    display: flex;
+    
+}
+.contactOrder>div>div{
+    flex: 1;
+}
+ .colorblack{
     background-color: rgb(1, 33, 36);
     margin-top: 30px;
     padding-top: 30px;
-    height: 300px;
+    height: 700px;
 }
 .footerText h1,h6,h5{
     color: white;
-    padding-right: 0px;
-    margin-right: 0px;
-    padding-bottom: 10px;
+   
+    margin-left:300px;
+   
+    padding-top: 20px;
     
    
 
 }
+.footerText h5 a{
+    text-decoration: none;
+    color: white;
+}
+.footerText h5 a:hover{
+    color: rgb(52, 233, 6);
+  
+}
 .footerText h1:hover,h6:hover,h5:hover{
     color: rgb(52, 233, 6);
+    
   
     
    
 
 }
+@media only screen and (max-width: 960px){
 
-.footerText h1{
-    text-align: center;
+.contactOrder>div{
+    display: flex;
+    flex-direction: column;
+    
 }
-.footerText{
-    border-bottom: 1px solid rgb(252, 69, 13);
-
-
 }
 
 
-@media only screen and (max-width: 768px){
-    .colorblack{
-     
-        background-color: rgb(80, 51, 61);
       
-       
-        
-    }   
-    .footerText h5,h6{
+
+/* contact Validation */
+#loginForm{
+    max-height: 500px;
+    max-width: 600px;
+    background-color: rgb(56, 61, 56);
+    color: rgb(201, 12, 12);
+    border-radius: 30px;
+    padding-top: 30px;
+    margin-left: 10%;
+    margin-top: 10px;
+    padding-left: 180px;
+    padding-bottom: 30px;
+
+}
+
+#firstError,#emailError,#addError,#lastError,#subjectError{
+    color: rgb(8, 204, 8);
+    font-size: 12px;
+    font-weight: 400;
+}
+#alertMessage{
+   
+    color: rgb(22, 218, 22);
+    font-weight: 400;
+    font-size: 15px;
+  
+
+}
+.signupButton{
+    margin-left: 60px;
+}
+.contact{
+    color: white;
+    padding-left: 40%;
+    padding-top: 20px;
+}
+#firstname,#lastname,#email,#address,#subject{
+    border-radius: 0px;
+    color: red;
+    
+}
+#buttonSpace{
+    margin-left: 120px;
+}
+#buttonSpace:hover,.submitButtonContact:hover{
+    background-color: gray;
+    color: brown;
+    font-weight: bold;
+}
+::placeholder{
+    color:rgb(8, 6, 6);
+}
+
+
+@media only screen and (max-width: 1234px){
+    #loginForm{
         padding-left: 150px;
     }
+
 }
-@media only screen and (max-width: 520px)
-{
-    .footerText h5{
-        font-size: 15px;
+@media only screen and (max-width: 1177px){
+   .footerText h1,h6,h5{
+    margin-left:200px;
+}
+#loginForm{
+    padding-left: 100px;
+}
+
+}
+@media only screen and (max-width: 977px){
+    .footerText h1,h6,h5{
+     margin-left:150px;
+ }
+ #loginForm{
+     padding-left: 90px;
+ }
+ 
+ }
+ @media only screen and (max-width: 960px){
+    .footerText h1,h6,h5{
+     margin-left:700px;
+     padding-top: 5px;
+     font-size: 16px;
+
+ }
+ #loginForm{
+     margin-left: 200px;
+     padding-left: 180px;
+ }
+ .colorblack{
+    
+  
+    height: 800px;
+}
+
+ 
+ }
+ @media only screen and (max-width: 946px){
+    .footerText h1,h6,h5{
+        margin-left:400px;
+       padding: 5px 0px 2px 0px;
+        font-size: 16px;
+   
     }
-}
-@media only screen and (max-width: 460px)
-{
-    .footerText h5,h6{
-        padding-left: 0px;
+
+ }
+ @media only screen and (max-width: 846px){
+    #loginForm{
+        margin-left: 150px;
         
+    }
+
+ }
+ @media only screen and (max-width: 790px){
+    #loginForm{
+        margin-left: 100px;
+        
+    }
+    .footerText h1,h6,h5{
+        margin-left:300px;
+      
+   
+    }
+
+ }
+ @media only screen and (max-width: 732px){
+    #loginForm{
+        margin-left: 70px;
+        
+    }
+    .footerText h1,h6,h5{
+        margin-left:300px;
+      
+   
+    }
+
+ }
+ @media only screen and (max-width: 660px){
+    #loginForm{
+        margin-left: 20px;
+        
+    }
+    .footerText h1,h6,h5{
+        margin-left:250px;
+      
+   
+    }
+
+ }
+ @media only screen and (max-width: 638px){
+    #loginForm{
+        margin-left: 5px;
+        border-radius: 0px;
+      
+        
+    }
+    .footerText h1,h6,h5{
+        margin-left:250px;
+      
+   
+    }
+
+ }
+ @media only screen and (max-width: 536px){
+    #loginForm{
+        margin-left: 2px;
        
-    
-    }   
-}
+      
+        
+    }
+    .footerText h1,h6,h5{
+        margin-left:200px;
+      
+   
+    }
+
+ }
+ @media only screen and (max-width: 538px){
+    #loginForm{
+        padding-left: 140px;   
+    }
+
+ }
+ @media only screen and (max-width: 474px){
+    #loginForm{
+        padding-left: 100px;   
+    }
+    .footerText h1,h6,h5{
+        margin-left:150px;
+      
+   
+    }
+
+ }
+ @media only screen and (max-width: 416px){
+    #loginForm{
+        padding-left: 80px;   
+    }
+    .footerText h1,h6,h5{
+        margin-left:100px;
+      
+   
+    }
+
+ }
 
 
-@media only screen and (max-width: 316px)
-{
-    .footerText h5,h6{
-        padding-left: 40px;
-        
-       
-    
-    }   
-}
+
+
+
+/* contact */
 
 
 /* footer ends */

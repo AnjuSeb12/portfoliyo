@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/login.css">
 
 </head>
 <body>
@@ -48,6 +49,8 @@
                     <a class="nav-link color" href="#contact">Contact</a>
                   
                 </li>
+              
+              
                 <li class="nav-item ">
                   <a class="nav-link color" href="mailto:someone@example.com">Hire Me</a>
                 </li>
@@ -87,7 +90,7 @@
                     <div class="col-12 color secondRow ">
                       <div class="box">
                         <h1>About</h1>
-                        <p >I'm a full-stack developer specialised in frontend and backend development for scalable web apps.</p>
+                        <p >An Aspiring FULL STACK DEVELOPER in MERN STACK with the ability to design ,develop and implement Responsive websites with a focus on user experience.Possesses strong knowledge in HTML5,CSS3, javascript,React js,Express js,Node js,MongoDB,git.Demonstrates excellent communication skills and a strong aptitude for teamwork.</p>
                         <h4>Qualification</h4>
                         <h5>Msc Computer Science,Full Stack Web Development in Mern Stack </h5>
 
@@ -138,21 +141,53 @@
               </div>
 
               <!-- services -->
+              
               </div>
               <!-- .......content ends....................................... -->
+              
               <!-- footer starts -->
-              <div class="container-fluid" id="contact" >
-                <div class="row colorblack">
-                  <div class="col-12">
-                    <div class="footerText">
-                      <h1>Contact Info</h1>
-                      <h5 style="margin-right: 0px;"><i class="bi bi-geo-alt"></i><span>&nbsp;&nbsp;Erumad</span> </h1>
-                      <h6><i class="bi bi-phone"></i><span>&nbsp;&nbsp;1234567890</span></h2>
-                      <h5>G-mail&nbsp;-&nbsp;sample @ gmail.com</h5>
-                     
+              <div  id="contact" >
+                <div class="row colorblack contactOrder ">
+                  <h1 class="contact">Contact Me</h1>
+                  <div class="col-12  ">
+                    <div> 
+                      <form action="" id="loginForm">
+                      <!-- <Label for="firstname">Firstname</Label><br> -->
+                      <input type="text" name="firstname" id="firstname" placeholder="Your Firstname*" size="30"><br>
+                      <span id="firstError" ></span><br>
+                      <!-- <Label for="lastname">Lastname</Label><br> -->
+                      <input type="text" name="lastname" id="lastname" placeholder="Your Lastname*" size="30"><br>
+                      <span id="lastError" ></span><br>
+                    
+                    
+
+                      <!-- <Label for="email">Email</Label><br> -->
+                      <input type="email" name="email" id="email" placeholder="Your Email*"size="30"><br>
+                      <span id="emailError"></span><br>
+                      <input type="subject" name="subject" id="subject" placeholder="Your Subject*" size="30"><br>
+                      <span id="subjectError"></span><br>
+
+                      
+                      <!-- <Label for="address">Message</Label><br> -->
+                      <textarea name="address" id="address" cols="34" rows="4" placeholder="Your Message*"></textarea><br>
+                      <span id="addError"></span><br>
+                      <div id="alertMessage"></div>
+                      <button class="submitButtonContact">Submit</button>
+                      
+                      <span><button  id="buttonSpace"  onclick="resetSignup()">Reset</button></span>
+  
+                  </form>
                     </div>
-                    <p style="color: rgb(255, 254, 254);font-family: Arial, Helvetica, sans-serif;font-size: 10px;">copyright@Anju</p>
+                    <div class="footerText">
+                      <h5 style="margin-right: 0px;"><i class="bi bi-geo-alt"></i><span>&nbsp;&nbsp;Erumad</span> </h1>
+                        <h6><i class="bi bi-phone"></i><span>&nbsp;&nbsp;+91-8122789470</span></h2>
+                        <h5><i class="bi bi-envelope"></i>&nbsp;&nbsp;<a href="#" >christeenaanju@gmail.com</a></h5>
+                    </div>
+
                   </div>
+                  
+                     
+                  <p style="color: rgb(255, 254, 254);font-family: Arial, Helvetica, sans-serif;font-size: 10px;padding-left: 40%;padding-top: 20px;">copyright@Anju</p>
                 </div>
               </div>
               <!-- footer ends -->
@@ -160,6 +195,9 @@
         
     </div>
     
+  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="./js/signup.js"></script>
+ 
 </body>
 </html>
