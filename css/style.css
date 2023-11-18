@@ -1049,7 +1049,49 @@ text-align: center;
     }
 
  }
+ @media only screen and (max-width: 355px){
+    #loginForm{
+        padding-left: 40px;   
+    }
+   
+ }
+ @media only screen and (max-width: 351px){
+    #loginForm{
+        padding-left: 30px;   
+    }
+   
+ }
+ @media only screen and (max-width: 346px){
+    .footerText h1,h6,h5{
+        margin-left: 35px;
+      
+   
+    }
 
+   
+ }
+
+ @media only screen and (max-width: 334px){
+    #loginForm{
+        padding-left: 20px;   
+    }
+   
+
+ }
+ @media only screen and (max-width: 320px){
+    #loginForm{
+        padding-left: 14px;   
+    }
+   
+
+ }
+ @media only screen and (max-width: 310px){
+    #loginForm{
+        padding-left: 5px;   
+    }
+   
+
+ }
 
 
 
